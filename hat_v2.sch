@@ -7733,7 +7733,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <sheet>
 <plain>
 <text x="149.86" y="7.62" size="2.54" layer="94">Andrew LeCody</text>
-<text x="241.3" y="7.62" size="2.54" layer="94">v1</text>
+<text x="241.3" y="7.62" size="2.54" layer="94">v2</text>
 </plain>
 <instances>
 <instance part="RPI1" gate="G$1" x="205.74" y="73.66"/>
@@ -8295,6 +8295,42 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,17.78,78.74,ADDR,,,,,"/>
+<approved hash="106,1,17.78,76.2,ALRT,,,,,"/>
+<approved hash="106,1,226.06,60.96,EECLK,,,,,"/>
+<approved hash="106,1,187.96,60.96,EEDATA,,,,,"/>
+<approved hash="106,1,187.96,86.36,GPIO4,,,,,"/>
+<approved hash="106,1,187.96,55.88,GPIO6,,,,,"/>
+<approved hash="106,1,226.06,55.88,GPIO12,,,,,"/>
+<approved hash="106,1,187.96,53.34,GPIO13,,,,,"/>
+<approved hash="106,1,226.06,50.8,GPIO16,,,,,"/>
+<approved hash="106,1,187.96,81.28,GPIO17,,,,,"/>
+<approved hash="106,1,187.96,50.8,GPIO19,,,,,"/>
+<approved hash="106,1,226.06,48.26,GPIO20,,,,,"/>
+<approved hash="106,1,226.06,45.72,GPIO21,,,,,"/>
+<approved hash="106,1,187.96,76.2,GPIO22,,,,,"/>
+<approved hash="106,1,226.06,76.2,GPIO23,,,,,"/>
+<approved hash="106,1,226.06,73.66,GPIO24,,,,,"/>
+<approved hash="106,1,226.06,68.58,GPIO25,,,,,"/>
+<approved hash="106,1,187.96,48.26,GPIO26,,,,,"/>
+<approved hash="106,1,187.96,78.74,GPIO27,,,,,"/>
+<approved hash="106,1,17.78,43.18,INT1,,,,,"/>
+<approved hash="106,1,17.78,45.72,INT2,,,,,"/>
+<approved hash="106,1,226.06,66.04,SPI_CE0,,,,,"/>
+<approved hash="106,1,226.06,63.5,SPI_CE1,,,,,"/>
+<approved hash="106,1,187.96,68.58,SPI_MISO,,,,,"/>
+<approved hash="106,1,187.96,71.12,SPI_MOSI,,,,,"/>
+<approved hash="106,1,187.96,66.04,SPI_SCLK,,,,,"/>
+<approved hash="113,1,14.5627,79.1887,ADS1115,,,,,"/>
+<approved hash="113,1,14.5627,45.9147,ADXL345,,,,,"/>
+<approved hash="113,1,14.5627,19.2447,GPS,,,,,"/>
+<approved hash="113,1,14.5627,118.305,J1,,,,,"/>
+<approved hash="113,1,14.5627,133.545,J2,,,,,"/>
+<approved hash="113,1,209.676,167.64,VD1,,,,,"/>
+<approved hash="113,1,209.676,137.16,VD2,,,,,"/>
+<approved hash="113,1,22.86,113.813,D1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
