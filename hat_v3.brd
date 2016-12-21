@@ -1214,7 +1214,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="51.308" y="26.416" extent="1-16" drill="0.6" shape="square"/>
 <via x="40.132" y="17.78" extent="1-16" drill="0.6" shape="square"/>
 <via x="35.052" y="17.78" extent="1-16" drill="0.6" shape="square"/>
-<via x="37.592" y="17.78" extent="1-16" drill="0.6" shape="square"/>
+<via x="34.544" y="14.732" extent="1-16" drill="0.6" shape="square"/>
 <contactref element="D2" pad="3"/>
 <wire x1="14.8131" y1="23.876" x2="16.764" y2="23.876" width="0.254" layer="1"/>
 <wire x1="16.764" y1="23.876" x2="18.796" y2="21.844" width="0.254" layer="1"/>
@@ -1240,6 +1240,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="6.096" y="16.764" extent="1-16" drill="0.6" shape="square"/>
 <via x="45.72" y="11.176" extent="1-16" drill="0.6" shape="square"/>
 <via x="55.88" y="11.176" extent="1-16" drill="0.6" shape="square"/>
+<via x="40.64" y="14.732" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="TXD">
 <contactref element="RPI1" pad="8"/>
