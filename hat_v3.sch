@@ -10199,7 +10199,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="OK1" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VEHICLE-GND" class="0">
 <segment>
 <pinref part="J1" gate="J$1" pin="1"/>
 <wire x1="17.78" y1="157.48" x2="15.24" y2="157.48" width="0.1524" layer="91"/>
@@ -10314,7 +10314,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <junction x="93.98" y="88.9"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="RS" class="0">
 <segment>
 <pinref part="U4" gate="MCP2551" pin="RS"/>
 <wire x1="73.66" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
