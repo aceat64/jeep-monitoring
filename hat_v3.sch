@@ -9505,8 +9505,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GPS" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M03" device="-SCREW-5MM"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="M03" device="-SCREW-5MM"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-Sensors" deviceset="ADXL345" device=""/>
@@ -9551,7 +9549,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22k"/>
@@ -9573,6 +9570,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="VD2" library="diode" deviceset="DIODE-SCHOTTKY-" device="SOD523"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -9580,6 +9580,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <text x="149.86" y="7.62" size="2.54" layer="94">Andrew LeCody</text>
 <text x="241.3" y="7.62" size="2.54" layer="94">v3</text>
 <text x="106.68" y="17.78" size="1.778" layer="97">Default I²C Address = 1001000</text>
+<text x="101.6" y="172.72" size="1.778" layer="97">Note: Internal pull-up</text>
 </plain>
 <instances>
 <instance part="RPI1" gate="G$1" x="205.74" y="73.66"/>
@@ -9590,8 +9591,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="GND3" gate="1" x="226.06" y="154.94"/>
 <instance part="GND4" gate="1" x="226.06" y="124.46"/>
 <instance part="GPS" gate="G$1" x="7.62" y="139.7"/>
-<instance part="J1" gate="J$1" x="7.62" y="160.02"/>
-<instance part="J2" gate="J$1" x="7.62" y="175.26"/>
 <instance part="GND5" gate="1" x="71.12" y="160.02"/>
 <instance part="GND7" gate="1" x="93.98" y="162.56"/>
 <instance part="U2" gate="G$1" x="48.26" y="96.52"/>
@@ -9629,6 +9628,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="VD2" gate="G$1" x="50.8" y="167.64" rot="R90"/>
 <instance part="GND20" gate="1" x="50.8" y="160.02"/>
 <instance part="GND21" gate="1" x="43.18" y="160.02"/>
+<instance part="J1" gate="J$1" x="7.62" y="160.02"/>
+<instance part="J2" gate="J$1" x="7.62" y="175.26"/>
 </instances>
 <busses>
 </busses>
@@ -10126,9 +10127,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="BAT-1-INPUT" class="0">
 <segment>
-<pinref part="J1" gate="J$1" pin="2"/>
 <wire x1="15.24" y1="160.02" x2="33.02" y2="160.02" width="0.1524" layer="91"/>
 <label x="17.78" y="160.02" size="1.778" layer="95"/>
+<pinref part="J1" gate="J$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="177.8" x2="208.28" y2="177.8" width="0.1524" layer="91"/>
@@ -10142,9 +10143,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="BAT-2-INPUT" class="0">
 <segment>
-<pinref part="J1" gate="J$1" pin="3"/>
 <wire x1="15.24" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
 <label x="17.78" y="162.56" size="1.778" layer="95"/>
+<pinref part="J1" gate="J$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
@@ -10158,11 +10159,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="SHUNT-HIGH-INPUT" class="0">
 <segment>
-<pinref part="J2" gate="J$1" pin="1"/>
 <label x="17.78" y="172.72" size="1.778" layer="95"/>
 <pinref part="VD1" gate="G$1" pin="C"/>
 <wire x1="43.18" y1="170.18" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="172.72" x2="15.24" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
@@ -10172,11 +10173,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="SHUNT-LOW-INPUT" class="0">
 <segment>
-<pinref part="J2" gate="J$1" pin="2"/>
 <label x="17.78" y="175.26" size="1.778" layer="95"/>
 <pinref part="VD2" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="170.18" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
@@ -10186,10 +10187,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="LINKED-INPUT" class="0">
 <segment>
-<pinref part="J2" gate="J$1" pin="3"/>
 <wire x1="15.24" y1="177.8" x2="58.42" y2="177.8" width="0.1524" layer="91"/>
 <label x="17.78" y="177.8" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="J2" gate="J$1" pin="3"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10201,9 +10202,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="VEHICLE-GND" class="0">
 <segment>
-<pinref part="J1" gate="J$1" pin="1"/>
 <wire x1="17.78" y1="157.48" x2="15.24" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="J1" gate="J$1" pin="1"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -10239,7 +10240,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="SUPPLY11" gate="G$1" x="22.86" y="45.72"/>
 <instance part="GND18" gate="1" x="22.86" y="27.94"/>
 <instance part="GND19" gate="1" x="33.02" y="27.94"/>
-<instance part="J3" gate="G$1" x="127" y="43.18" rot="R180"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="V" x="147.32" y="0"/>
 <instance part="R10" gate="G$1" x="116.84" y="106.68"/>
@@ -10256,6 +10256,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="C12" gate="G$1" x="88.9" y="99.06" rot="R90"/>
 <instance part="GND10" gate="1" x="93.98" y="78.74"/>
 <instance part="U3" gate="G$1" x="58.42" y="99.06"/>
+<instance part="J3" gate="G$1" x="127" y="43.18" rot="R180"/>
 </instances>
 <busses>
 </busses>
