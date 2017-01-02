@@ -22,7 +22,12 @@ This system is designed for monitoring or interacting with various functions of 
 
 ![bottom](https://raw.githubusercontent.com/aceat64/jeep-monitoring/master/bottom.png)
 
+## Bill Of Materials
+See this [Google doc](https://docs.google.com/spreadsheets/d/1EL97Gz-JKfgCOYKvCzc1mUYXWVdC4jQAL_xUaZWqmfQ/edit?usp=sharing) for more info.
+
 ## License
+Copyright Andrew LeCody 2017
+
 All schematics, circuit board design files and documentation are released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 All source code is releaed under the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0-standalone.html).
