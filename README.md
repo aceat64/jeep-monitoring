@@ -10,10 +10,16 @@ This system is designed for monitoring or interacting with various functions of 
 - GPS header, for external GPS module.
 - CAN Bus transciever.
 
-# Preview
+## Preview
 
 ![board](https://raw.githubusercontent.com/aceat64/jeep-monitoring/master/board.png)
+
+### Top
+
 ![top](https://raw.githubusercontent.com/aceat64/jeep-monitoring/master/top.png)
+
+### Bottom
+
 ![bottom](https://raw.githubusercontent.com/aceat64/jeep-monitoring/master/bottom.png)
 
 ## License
