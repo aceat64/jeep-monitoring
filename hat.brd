@@ -153,8 +153,8 @@ Andrew LeCody</text>
 <text x="9.652" y="9.144" size="1.016" layer="21" rot="R180" align="center">Link</text>
 <text x="13.208" y="9.144" size="1.016" layer="21" rot="R180" align="center">Low</text>
 <text x="16.764" y="9.144" size="1.016" layer="21" rot="R180" align="center">High</text>
-<text x="20.828" y="9.144" size="1.016" layer="21" rot="R180" align="center">Bat 1</text>
-<text x="24.384" y="9.144" size="1.016" layer="21" rot="R180" align="center">Bat 2</text>
+<text x="20.32" y="9.144" size="1.016" layer="21" rot="R180" align="center">1</text>
+<text x="23.876" y="9.144" size="1.016" layer="21" rot="R180" align="center">2</text>
 <text x="27.94" y="9.144" size="1.016" layer="21" rot="R180" align="center">GND</text>
 <text x="32.512" y="9.144" size="1.016" layer="21" rot="R180" align="center">L</text>
 <text x="36.068" y="9.144" size="1.016" layer="21" align="center">H</text>
@@ -163,6 +163,8 @@ Andrew LeCody</text>
 <text x="6.604" y="41.656" size="1.016" layer="25" align="center-left">SDA</text>
 <text x="6.604" y="39.116" size="1.016" layer="25" align="center-left">SCL</text>
 <text x="6.604" y="36.576" size="1.016" layer="25" align="center-left">GND</text>
+<text x="22.098" y="10.16" size="1.016" layer="21" rot="R180" align="center">Bat</text>
+<text x="14.986" y="10.668" size="1.016" layer="21" rot="R180" align="center">Shunt</text>
 </plain>
 <libraries>
 <library name="microbuilder">
