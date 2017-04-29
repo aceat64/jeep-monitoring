@@ -8694,9 +8694,9 @@ Based on the various other libraries such as Eagle's standard resistor.lbr file.
 <instance part="GND17" gate="1" x="106.68" y="7.62"/>
 <instance part="R8" gate="G$1" x="93.98" y="27.94" rot="R90"/>
 <instance part="R9" gate="G$1" x="106.68" y="27.94" rot="R90"/>
-<instance part="SUPPLY11" gate="G$1" x="22.86" y="45.72"/>
-<instance part="GND18" gate="1" x="22.86" y="27.94"/>
-<instance part="GND19" gate="1" x="33.02" y="27.94"/>
+<instance part="SUPPLY11" gate="G$1" x="20.32" y="43.18"/>
+<instance part="GND18" gate="1" x="20.32" y="25.4"/>
+<instance part="GND19" gate="1" x="30.48" y="25.4"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="V" x="147.32" y="0"/>
 <instance part="R10" gate="G$1" x="116.84" y="106.68"/>
@@ -8713,7 +8713,7 @@ Based on the various other libraries such as Eagle's standard resistor.lbr file.
 <instance part="J3" gate="G$1" x="127" y="43.18" rot="R180"/>
 <instance part="C4" gate="G$1" x="93.98" y="17.78"/>
 <instance part="C5" gate="G$1" x="106.68" y="17.78"/>
-<instance part="C6" gate="G$1" x="22.86" y="38.1"/>
+<instance part="C6" gate="G$1" x="20.32" y="35.56"/>
 <instance part="C7" gate="G$1" x="83.82" y="127"/>
 <instance part="C8" gate="G$1" x="86.36" y="88.9" rot="R90"/>
 <instance part="C9" gate="G$1" x="86.36" y="99.06" rot="R90"/>
@@ -8739,14 +8739,8 @@ Based on the various other libraries such as Eagle's standard resistor.lbr file.
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="22.86" y1="30.48" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U3" gate="MCP2551" pin="VDD"/>
-<wire x1="43.18" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="40.64" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -8773,6 +8767,12 @@ Based on the various other libraries such as Eagle's standard resistor.lbr file.
 <junction x="93.98" y="88.9"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U3" gate="MCP2551" pin="VSS"/>
+<wire x1="43.18" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="30.48" y1="43.18" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RS" class="0">
@@ -8824,12 +8824,12 @@ Based on the various other libraries such as Eagle's standard resistor.lbr file.
 <net name="5V" class="0">
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
-<wire x1="22.86" y1="40.64" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U3" gate="MCP2551" pin="VSS"/>
-<wire x1="22.86" y1="43.18" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
-<junction x="22.86" y="43.18"/>
+<wire x1="20.32" y1="38.1" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="U3" gate="MCP2551" pin="VDD"/>
+<wire x1="20.32" y1="40.64" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
+<junction x="20.32" y="40.64"/>
 </segment>
 </net>
 <net name="TXCAN" class="0">
